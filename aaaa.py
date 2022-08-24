@@ -3,11 +3,11 @@ import time
 
 def hl(a,b):
     m =  a.message.reply_text("Hello")
-    time.sleep(1)
+    time.sleep(0.5)
     mm = m.edit_text("Please Wait")
-    time.sleep(1)
+    time.sleep(0.5)
     mm = m.edit_text(mm.text+"\nPleasee......")
-    time.sleep(1)
+    time.sleep(0.5)
     m.edit_text(mm.text+"\nOh Nothing")
     
     print(a.message.from_user)
