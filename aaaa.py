@@ -11,7 +11,7 @@ def hl(a,b):
     time.sleep(0.5)
     m.edit_text(mm.text+"\nOh Nothing")
     
-    logging.info("Someone Called Message")
+    logging.debug("Someone Called Message")
 
 
 updater = Updater("5691804740:AAFc1Vvf16R_iYAFJfEFvA_L7HL-p5n1qjk", use_context=True)
